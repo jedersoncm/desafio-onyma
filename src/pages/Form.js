@@ -1,13 +1,17 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import ContextApp from '../context/ContextApp';
+import validateForm from '../helpers';
+import '../styles/form.css'
 
 function Form() {
   const { clinics, setClinics } = useContext(ContextApp);
+  const [isDisable, setIsDisable] = useState(false);
+  const [newData, setNewData] = useState({});
   const updatedClinics = clinics;
   const history = useHistory();
 
-  const handleClick = () => {
+  const handleChange = () => {
     const name = document.querySelector('#name').value;
     const address = document.querySelector('#address').value;
     const cep = document.querySelector('#cep').value;
@@ -28,40 +32,68 @@ function Form() {
       services,
     };
 
-    updatedClinics.push(obj);
+    setIsDisable(validateForm(obj));
+    setNewData(obj);
+  }
+
+  const handleClick = () => {
+    updatedClinics.push(newData);
     setClinics(updatedClinics);
     history.push('/');
-
   }
 
   return (
     <div>
       <form>
-        <label htmlFor="name">Nome:
-          <input type="text" id="name" />
-        </label>
-        <label htmlFor="cep">CEP:
-          <input type="text" id="cep" />
-        </label>
-        <label htmlFor="address">Endereço:
-          <input type="text" id="address" />
-        </label>
-        <label htmlFor="email">Email:
-          <input type="text" id="email"  />
-        </label>
-        <label htmlFor="whatsapp">Whatsapp:
-          <input type="text" id="whatsapp" />
-        </label>
-        <p>Serviços disponiveis</p>
-        <input type="checkbox" id="clinic-input" />
-        <label htmlFor="clinic-input">Exames Clínicos</label>
-        <input type="checkbox" id="additional-input" />
-        <label htmlFor="additional-input">Exames Complementares</label>
-        <input type="checkbox" id="ppra-input"/>
-        <label htmlFor="ppra-input">PPRA</label>
-        <input type="checkbox" id="pcmso-input"/>
-        <label htmlFor="pcmso-input">PCMSO</label>
-        <button type="button" onClick={ handleClick }>Adicionar Clínica</button>
+        <div className="form-container">
+          <div className="fild">
+            <label htmlFor="name">Nome:</label>
+            <input type="text" id="name" onChange={ handleChange } />
+          </div>
+          <div className="fild">
+            <label htmlFor="cep">CEP:</label>
+            <input type="text" id="cep" onChange={ handleChange } />
+          </div>
+          <div className="fild">
+            <label htmlFor="address">Endereço:</label>
+            <input type="text" id="address" onChange={ handleChange } />
+          </div>
+          <div className="fild">
+            <label htmlFor="email">Email:</label>
+            <input type="text" id="email" onChange={ handleChange } />
+          </div>
+          <div className="fild">
+            <label htmlFor="whatsapp">Whatsapp:</label>
+            <input type="text" id="whatsapp" onChange={ handleChange } />
+          </div>
+          <p>Serviços disponiveis</p>
+          <div className="services-group">
+            <div>
+              <input type="checkbox" id="clinic-input" onChange={ handleChange } />
+              <label htmlFor="clinic-input">Exames Clínicos</label>
+            </div>
+            <div>
+              <input type="checkbox" id="additional-input" onChange={ handleChange } />
+              <label htmlFor="additional-input">Exames Complementares</label>
+            </div>
+            <div>
+              <input type="checkbox" id="ppra-input" onChange={ handleChange } />
+              <label htmlFor="ppra-input" >PPRA</label>
+            </div>
+            <div>
+              <input type="checkbox" id="pcmso-input" onChange={ handleChange }/>
+              <label htmlFor="pcmso-input">PCMSO</label>
+            </div>
+          </div>
+          <button
+            type="submit"
+            onClick={ handleClick }
+            disabled={ !isDisable }
+            className="form-button"
+          >
+            Adicionar Clínica
+          </button>
+        </div>
       </form>
     </div>
   )

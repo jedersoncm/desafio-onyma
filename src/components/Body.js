@@ -23,11 +23,11 @@ function Body() {
   }, []);
 
   return (
-    <div>
-      <div>
+    <div className="body-container">
+      <div className="buttons-container">
         <button type="button" onClick={ sortClinics }>Ordenar</button>
         <button type="button" onClick={ () => history.push('/form')}>Adicionar clinica</button>
-    </div>
+      </div>
       {sorted ? clinics.map((clinic) => (
         <Card info={ clinic } />
       )) : clinics.map((clinic) => (
