@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/desafio-onyma/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/desafio-onyma/static/js/main.93c31e89.chunk.js",
+    "main.js.map": "/desafio-onyma/static/js/main.93c31e89.chunk.js.map",
+    "runtime-main.js": "/desafio-onyma/static/js/runtime-main.e27c0de1.js",
+    "runtime-main.js.map": "/desafio-onyma/static/js/runtime-main.e27c0de1.js.map",
+    "static/js/2.7c81ff63.chunk.js": "/desafio-onyma/static/js/2.7c81ff63.chunk.js",
+    "static/js/2.7c81ff63.chunk.js.map": "/desafio-onyma/static/js/2.7c81ff63.chunk.js.map",
+    "static/js/3.d89af50c.chunk.js": "/desafio-onyma/static/js/3.d89af50c.chunk.js",
+    "static/js/3.d89af50c.chunk.js.map": "/desafio-onyma/static/js/3.d89af50c.chunk.js.map",
+    "index.html": "/desafio-onyma/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/desafio-onyma/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.7c81ff63.chunk.js.LICENSE.txt": "/desafio-onyma/static/js/2.7c81ff63.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/desafio-onyma/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e27c0de1.js",
+    "static/js/2.7c81ff63.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.93c31e89.chunk.js"
+  ]
+}
