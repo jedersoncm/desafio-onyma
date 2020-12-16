@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/desafio-onyma/static/css/main.7579ab68.chunk.css",
-    "main.js": "/desafio-onyma/static/js/main.bae7e030.chunk.js",
-    "main.js.map": "/desafio-onyma/static/js/main.bae7e030.chunk.js.map",
-    "runtime-main.js": "/desafio-onyma/static/js/runtime-main.f29be6ec.js",
-    "runtime-main.js.map": "/desafio-onyma/static/js/runtime-main.f29be6ec.js.map",
-    "static/js/2.cf755867.chunk.js": "/desafio-onyma/static/js/2.cf755867.chunk.js",
-    "static/js/2.cf755867.chunk.js.map": "/desafio-onyma/static/js/2.cf755867.chunk.js.map",
-    "static/js/3.962913d7.chunk.js": "/desafio-onyma/static/js/3.962913d7.chunk.js",
-    "static/js/3.962913d7.chunk.js.map": "/desafio-onyma/static/js/3.962913d7.chunk.js.map",
+    "main.css": "/desafio-onyma/static/css/main.1ac9ea62.chunk.css",
+    "main.js": "/desafio-onyma/static/js/main.dfcab826.chunk.js",
+    "main.js.map": "/desafio-onyma/static/js/main.dfcab826.chunk.js.map",
+    "runtime-main.js": "/desafio-onyma/static/js/runtime-main.e5ee77ff.js",
+    "runtime-main.js.map": "/desafio-onyma/static/js/runtime-main.e5ee77ff.js.map",
+    "static/js/2.0b5553fd.chunk.js": "/desafio-onyma/static/js/2.0b5553fd.chunk.js",
+    "static/js/2.0b5553fd.chunk.js.map": "/desafio-onyma/static/js/2.0b5553fd.chunk.js.map",
+    "static/js/3.7aa79a75.chunk.js": "/desafio-onyma/static/js/3.7aa79a75.chunk.js",
+    "static/js/3.7aa79a75.chunk.js.map": "/desafio-onyma/static/js/3.7aa79a75.chunk.js.map",
     "index.html": "/desafio-onyma/index.html",
-    "static/css/main.7579ab68.chunk.css.map": "/desafio-onyma/static/css/main.7579ab68.chunk.css.map",
-    "static/js/2.cf755867.chunk.js.LICENSE.txt": "/desafio-onyma/static/js/2.cf755867.chunk.js.LICENSE.txt",
+    "static/css/main.1ac9ea62.chunk.css.map": "/desafio-onyma/static/css/main.1ac9ea62.chunk.css.map",
+    "static/js/2.0b5553fd.chunk.js.LICENSE.txt": "/desafio-onyma/static/js/2.0b5553fd.chunk.js.LICENSE.txt",
     "static/media/whatsappLogo.d1038eb1.png": "/desafio-onyma/static/media/whatsappLogo.d1038eb1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f29be6ec.js",
-    "static/js/2.cf755867.chunk.js",
-    "static/css/main.7579ab68.chunk.css",
-    "static/js/main.bae7e030.chunk.js"
+    "static/js/runtime-main.e5ee77ff.js",
+    "static/js/2.0b5553fd.chunk.js",
+    "static/css/main.1ac9ea62.chunk.css",
+    "static/js/main.dfcab826.chunk.js"
   ]
 }
