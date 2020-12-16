@@ -38,7 +38,8 @@
   margin: auto;
   margin-left: 20px;
   color: white;
-  background-color: rgb(148, 1, 26);
+  /* background-color: rgb(148, 1, 26); */
+  background-color: cornflowerblue;
   border: 1px solid black;
   border-radius: 10px;
   padding: 5px;

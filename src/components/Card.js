@@ -1,10 +1,14 @@
 import React from 'react';
-import whatsappLogo from '../images/whatsappLogo.png'
+import whatsappLogo from '../images/whatsappLogo.png';
+// import {onlyNumbers} from '../helpers'
 import '../styles/card.css'
+import Services from './Services';
 
 function Card(props) {
   const { info } = props;
-  console.log(info);
+  const phoneNumber = info.whatsapp.replace(/([^\d])+/gim, '');
+  const href = `https://api.whatsapp.com/send?phone=55${phoneNumber}`
+
   return (
     <div className="card-container">
       <div className="infos-container">
@@ -13,36 +17,14 @@ function Card(props) {
         <p>{info.email}</p>
       </div>
       <div className="right-container">
-        <div className="services-container">
-          <span
-            className="service"
-            style={info.services.includes('Clínicos') ? { backgroundColor: 'chartreuse' } : { backgroundColor: 'white' }}
-          >
-            EXAME CLÍNICO
-          </span>
-          <span
-            className="service"
-            style={info.services.includes('Complementares') ? { backgroundColor: 'chartreuse' } : { backgroundColor: 'white' }}
-          >
-            COMPLEMENTAR
-          </span>
-          <span
-            className="service"
-            style={info.services.includes('PCMSO') ? { backgroundColor: 'chartreuse' } : { backgroundColor: 'white' }}
-          >
-            PCMSO
-          </span>
-          <span
-            className="service"
-            style={info.services.includes('PPRA') ? { backgroundColor: 'chartreuse' } : { backgroundColor: 'white' }}
-          >
-            PPRA
-          </span>
-        </div>
-        <div className="contact-container">
+        <Services info={ info } />
+        <a
+          className="contact-container"
+          href={ href }
+        >
           <img src={ whatsappLogo } alt="logo whatsapp" className="whats-logo"/>
           <p>{info.whatsapp}</p>
-        </div>
+        </a>
       </div>
     </div>
   )
