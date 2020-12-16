@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/desafio-onyma/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/desafio-onyma/static/js/main.93c31e89.chunk.js",
-    "main.js.map": "/desafio-onyma/static/js/main.93c31e89.chunk.js.map",
-    "runtime-main.js": "/desafio-onyma/static/js/runtime-main.e27c0de1.js",
-    "runtime-main.js.map": "/desafio-onyma/static/js/runtime-main.e27c0de1.js.map",
-    "static/js/2.7c81ff63.chunk.js": "/desafio-onyma/static/js/2.7c81ff63.chunk.js",
-    "static/js/2.7c81ff63.chunk.js.map": "/desafio-onyma/static/js/2.7c81ff63.chunk.js.map",
-    "static/js/3.d89af50c.chunk.js": "/desafio-onyma/static/js/3.d89af50c.chunk.js",
-    "static/js/3.d89af50c.chunk.js.map": "/desafio-onyma/static/js/3.d89af50c.chunk.js.map",
+    "main.css": "/desafio-onyma/static/css/main.eb69e409.chunk.css",
+    "main.js": "/desafio-onyma/static/js/main.4c625958.chunk.js",
+    "main.js.map": "/desafio-onyma/static/js/main.4c625958.chunk.js.map",
+    "runtime-main.js": "/desafio-onyma/static/js/runtime-main.f29be6ec.js",
+    "runtime-main.js.map": "/desafio-onyma/static/js/runtime-main.f29be6ec.js.map",
+    "static/js/2.d0755bf6.chunk.js": "/desafio-onyma/static/js/2.d0755bf6.chunk.js",
+    "static/js/2.d0755bf6.chunk.js.map": "/desafio-onyma/static/js/2.d0755bf6.chunk.js.map",
+    "static/js/3.962913d7.chunk.js": "/desafio-onyma/static/js/3.962913d7.chunk.js",
+    "static/js/3.962913d7.chunk.js.map": "/desafio-onyma/static/js/3.962913d7.chunk.js.map",
     "index.html": "/desafio-onyma/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/desafio-onyma/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.7c81ff63.chunk.js.LICENSE.txt": "/desafio-onyma/static/js/2.7c81ff63.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/desafio-onyma/static/media/logo.6ce24c58.svg"
+    "static/css/main.eb69e409.chunk.css.map": "/desafio-onyma/static/css/main.eb69e409.chunk.css.map",
+    "static/js/2.d0755bf6.chunk.js.LICENSE.txt": "/desafio-onyma/static/js/2.d0755bf6.chunk.js.LICENSE.txt",
+    "static/media/whatsappLogo.d1038eb1.png": "/desafio-onyma/static/media/whatsappLogo.d1038eb1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e27c0de1.js",
-    "static/js/2.7c81ff63.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.93c31e89.chunk.js"
+    "static/js/runtime-main.f29be6ec.js",
+    "static/js/2.d0755bf6.chunk.js",
+    "static/css/main.eb69e409.chunk.css",
+    "static/js/main.4c625958.chunk.js"
   ]
 }
