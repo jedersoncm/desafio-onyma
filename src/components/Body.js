@@ -13,7 +13,6 @@ function Body() {
     const sortedArray = clinics.sort((a, b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
     setSorted(true);
     setClinics(sortedArray);
-    console.log(clinics);
   }
 
   useEffect(() => {

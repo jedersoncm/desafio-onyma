@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import ContextApp from '../context/ContextApp';
-import validateForm from '../helpers';
+import { validateForm, pesquisaCep } from '../helpers/index';
 import '../styles/form.css'
 
 function Form() {
@@ -36,6 +36,15 @@ function Form() {
     setNewData(obj);
   }
 
+  const handleCep = async () => {
+    const cep = document.querySelector('#cep').value
+    const cepNumber = cep.replace(/([^\d])+/gim, '');
+    const street = await pesquisaCep(cepNumber);
+    if (street !== "" && street !== undefined) {
+      document.querySelector('#address').value = street;
+    }
+  }
+
   const handleClick = () => {
     updatedClinics.push(newData);
     setClinics(updatedClinics);
@@ -52,7 +61,7 @@ function Form() {
           </div>
           <div className="fild">
             <label htmlFor="cep">CEP:</label>
-            <input type="text" id="cep" onChange={ handleChange } />
+            <input type="text" id="cep" onChange={ handleChange } onBlur={ handleCep } />
           </div>
           <div className="fild">
             <label htmlFor="address">Endereço:</label>
