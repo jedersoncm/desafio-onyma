@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/desafio-onyma/static/css/main.1ac9ea62.chunk.css",
-    "main.js": "/desafio-onyma/static/js/main.2688c730.chunk.js",
-    "main.js.map": "/desafio-onyma/static/js/main.2688c730.chunk.js.map",
+    "main.css": "/desafio-onyma/static/css/main.9855ab0e.chunk.css",
+    "main.js": "/desafio-onyma/static/js/main.3853c7c7.chunk.js",
+    "main.js.map": "/desafio-onyma/static/js/main.3853c7c7.chunk.js.map",
     "runtime-main.js": "/desafio-onyma/static/js/runtime-main.252ecfc4.js",
     "runtime-main.js.map": "/desafio-onyma/static/js/runtime-main.252ecfc4.js.map",
     "static/js/2.5f47e20a.chunk.js": "/desafio-onyma/static/js/2.5f47e20a.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.fbfbb61d.chunk.js": "/desafio-onyma/static/js/3.fbfbb61d.chunk.js",
     "static/js/3.fbfbb61d.chunk.js.map": "/desafio-onyma/static/js/3.fbfbb61d.chunk.js.map",
     "index.html": "/desafio-onyma/index.html",
-    "static/css/main.1ac9ea62.chunk.css.map": "/desafio-onyma/static/css/main.1ac9ea62.chunk.css.map",
+    "static/css/main.9855ab0e.chunk.css.map": "/desafio-onyma/static/css/main.9855ab0e.chunk.css.map",
     "static/js/2.5f47e20a.chunk.js.LICENSE.txt": "/desafio-onyma/static/js/2.5f47e20a.chunk.js.LICENSE.txt",
+    "static/media/voltar.317e6a7e.png": "/desafio-onyma/static/media/voltar.317e6a7e.png",
     "static/media/whatsappLogo.d1038eb1.png": "/desafio-onyma/static/media/whatsappLogo.d1038eb1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.252ecfc4.js",
     "static/js/2.5f47e20a.chunk.js",
-    "static/css/main.1ac9ea62.chunk.css",
-    "static/js/main.2688c730.chunk.js"
+    "static/css/main.9855ab0e.chunk.css",
+    "static/js/main.3853c7c7.chunk.js"
   ]
 }
