@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import ContextApp from '../context/ContextApp';
 import { validateForm, pesquisaCep } from '../helpers/index';
+import voltar from '../images/voltar.png';
 import '../styles/form.css'
 
 function Form() {
@@ -86,12 +87,12 @@ function Form() {
               <label htmlFor="additional-input">Exames Complementares</label>
             </div>
             <div>
-              <input type="checkbox" id="ppra-input" onChange={ handleChange } />
-              <label htmlFor="ppra-input" >PPRA</label>
-            </div>
-            <div>
               <input type="checkbox" id="pcmso-input" onChange={ handleChange }/>
               <label htmlFor="pcmso-input">PCMSO</label>
+            </div>
+            <div>
+              <input type="checkbox" id="ppra-input" onChange={ handleChange } />
+              <label htmlFor="ppra-input" >PPRA</label>
             </div>
           </div>
           <button
@@ -102,6 +103,11 @@ function Form() {
           >
             Adicionar Clínica
           </button>
+          <div
+            onClick={ () => history.push('/') }
+          >
+            <img src={ voltar } alt="voltar" width="100px"/>
+          </div>
         </div>
       </form>
     </div>
